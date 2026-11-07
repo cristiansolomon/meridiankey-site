@@ -2,23 +2,240 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeridianKey</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>MeridianKey – Meridian and Energy Point Reference</title>
+
     <meta
         name="description"
-        content="MeridianKey is an Android app for exploring traditional meridians and energy points."
+        content="MeridianKey is an Android app for exploring traditional meridians and energy points for study, personal reflection, and complementary muscle-testing practices."
     >
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #20352f;
+            background:
+                linear-gradient(
+                    135deg,
+                    #edf7f1 0%,
+                    #f8fbf9 55%,
+                    #e6f2ec 100%
+                );
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 70px 20px 50px;
+            text-align: center;
+        }
+
+        .container {
+            width: min(900px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .hero {
+            padding: 50px 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid #d8e8df;
+            border-radius: 24px;
+            box-shadow: 0 16px 45px rgba(38, 75, 60, 0.12);
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            color: #24634e;
+            font-size: clamp(42px, 8vw, 72px);
+            letter-spacing: -2px;
+        }
+
+        .subtitle {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: #49645a;
+            font-size: 19px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 24px;
+            border-radius: 10px;
+            color: white;
+            background: #2d765b;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background: #205a45;
+            transform: translateY(-2px);
+        }
+
+        section {
+            margin: 24px auto;
+            padding: 30px;
+            background: white;
+            border: 1px solid #dceae2;
+            border-radius: 18px;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #2d6b54;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+        }
+
+        .feature {
+            padding: 20px;
+            background: #f4faf6;
+            border-radius: 14px;
+        }
+
+        .feature h3 {
+            margin-top: 0;
+            color: #2d6b54;
+        }
+
+        .notice {
+            color: #566a62;
+            font-size: 14px;
+        }
+
+        footer {
+            padding: 30px 20px 50px;
+            text-align: center;
+            color: #60746c;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #2d6b54;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>MeridianKey</h1>
+    <header>
+        <div class="container hero">
+            <h1>MeridianKey</h1>
 
-    <p>
-        Explore traditional meridians and energy points for study,
-        personal reflection, and complementary muscle-testing practices.
-    </p>
+            <p class="subtitle">
+                Explore traditional meridians and energy points for study,
+                personal reflection, and complementary muscle-testing
+                practices.
+            </p>
 
-    <p>
-        MeridianKey is currently available in open testing on Google Play.
-    </p>
+            <a
+                class="button"
+                href="INSERT_YOUR_GOOGLE_PLAY_LINK_HERE"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Join the open test on Google Play
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>About MeridianKey</h2>
+
+            <p>
+                MeridianKey is an informational Android application designed
+                to help users explore traditional meridian concepts and the
+                energy points associated with each meridian.
+            </p>
+
+            <p>
+                The app can be used as a complementary reference tool for
+                study, personal reflection, and muscle-testing practices.
+            </p>
+        </section>
+
+        <section>
+            <h2>What you can explore</h2>
+
+            <div class="features">
+                <div class="feature">
+                    <h3>Meridians</h3>
+                    <p>
+                        Navigate through the main and extraordinary meridians.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <h3>Energy points</h3>
+                    <p>
+                        Explore the points associated with a selected
+                        meridian.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <h3>Point information</h3>
+                    <p>
+                        Review point names, virtues, disharmonies, and
+                        connections.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Open testing</h2>
+
+            <p>
+                MeridianKey is currently available in open testing on Google
+                Play. Feedback from practitioners and other users can help
+                improve future versions of the application.
+            </p>
+
+            <a
+                class="button"
+                href="INSERT_YOUR_GOOGLE_PLAY_LINK_HERE"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Download MeridianKey
+            </a>
+        </section>
+
+        <section>
+            <h2>Important information</h2>
+
+            <p class="notice">
+                MeridianKey is intended for informational and complementary
+                wellness purposes only. It is not a medical device and is not
+                intended to diagnose, treat, cure, or prevent any medical
+                condition.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 MeridianKey</p>
+
+        <p>
+            <a href="https://play.google.com/store/apps/details?id=com.meridiankey.app">
+                Privacy Policy
+            </a>
+        </p>
+    </footer>
 </body>
 </html>
